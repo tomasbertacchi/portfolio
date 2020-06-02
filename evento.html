@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/evento.css">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+
+
+
+            var A = document.querySelector("#caja");
+            var S = document.querySelector("#caja");
+            var D = document.querySelector("#caja");
+            var W = document.querySelector("#caja");
+            window.focus();
+
+            // cambio de posicion
+            document.addEventListener("keydown", function(event) {
+            switch(event.key) {
+                case "w" || "W" :
+                    W.style.top = "100px"
+                }
+            });
+            document.addEventListener("keyup", function(event) {
+            switch(event.key) {
+                case "w" || "W":
+                    W.style.top = "200px"
+                }
+            });
+            document.addEventListener("keydown", function(event) {
+            switch(event.key) {
+                case "s" || "S" :
+                    S.style.top = "300px"
+                }
+            });
+            document.addEventListener("keyup", function(event) {
+            switch(event.key) {
+                case "s" || "S":
+                    S.style.top = "200px"
+                }
+            });
+            document.addEventListener("keydown", function(event) {
+            switch(event.key) {
+                case "a" || "A" :
+                    A.style.left = "120px"
+                }
+            });
+            document.addEventListener("keyup", function(event) {
+            switch(event.key) {
+                case "a" || "A":
+                    A.style.left = "220px"
+                }
+            });
+            document.addEventListener("keydown", function(event) {
+            switch(event.key) {
+                case "d" || "D" :
+                    D.style.left = "320px"
+                }
+            });
+            document.addEventListener("keyup", function(event) {
+            switch(event.key) {
+                case "d" || "D":
+                    D.style.left = "220px"
+                }
+            });
+            
+        
+
+        });
+    </script>
+
+    <p>Mueve la caja con las teclas <h1>w a s d</h1></p>
+    <div class="contenedor">
+        <div id="caja">CAJA</div>
+    </div>
+
+    <a href="links.html">Central de links</a>
+</body>
+</html>

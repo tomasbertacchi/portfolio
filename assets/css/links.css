@@ -1,0 +1,41 @@
+.container {
+    background-color:lightgray;
+    width: 500px;
+    outline-width: 2px;
+    outline-color: black;
+    outline: dashed;
+    box-sizing: border-box;
+    max-width: 80%;
+    position: absolute;
+    left: 700px;
+    
+
+}
+
+#links {
+    text-align: center;
+    -webkit-animation-direction: normal;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-name: colours;
+	-webkit-animation-timing-function: ease;
+}
+
+@-webkit-keyframes colours {
+    0% {color: #39f;}
+   15% {color: #8bc5d1;}
+   30% {color: #f8cb4a;}
+   45% {color: #95b850;}
+   60% {color: #944893;}
+   75% {color: #c71f00;}
+   90% {color: #bdb280;}
+  100% {color: #39f;}
+}
+
+a {
+    font-size: 20pt;
+}
+
+body {
+    background-image:url("/images/fondolink.jpg")
+}

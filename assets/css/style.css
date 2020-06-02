@@ -43,3 +43,8 @@ table, th, td{
     width: 10px;
     height: 10px;
 }
+
+#trabajos {
+    text-align: center;
+    background-color: lightblue;
+}

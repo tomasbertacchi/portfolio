@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        colores = new Array("red","orange","yellow","green","blue","purple","brown","white")
+        colorRandom = 0
+
+        function changeColor() {
+            document.bgColor = colores[colorRandom]
+            colorRandom = (colorRandom + 1) % colores.length
+        }
+
+            function cambiarColor() {
+            setInterval("changeColor()",1000)
+        }
+
+        window.onload = cambiarColor
+
+
+
+        
+    </script>
+
+    <H1>CADA 1 SEGUNDO CAMBIA EL COLOR DEL FONDO</H1>
+    <a href="links.html" style="color: black;">Central de links</a>
+</body>
+</html>

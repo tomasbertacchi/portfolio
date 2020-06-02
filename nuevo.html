@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>Indicador de mayoria de edad</h1>
+    <div>
+        <label>Ingresa tu edad</label>
+        <input type="number" name="edad" required>
+        <button id="enviar">Enviar</button>
+    </div>
+    <a href="links.html">Central de links</a>
+    <script type="text/javascript">
+        var edad = document.getElementById("edad")
+        const mayor = 18;
+        function mayordeEdad(){
+            if (edad >= mayor ){
+                alert("sos mayor de edad")}
+            else (edad < mayor)
+                alert ("sos menor de edad")
+            }
+  
+        document.getElementById("enviar").onclick = mayordeEdad
+    </script>
+</body>
+</html>

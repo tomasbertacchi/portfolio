@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/formulario.css">
+    <script defer src="./assets/js/scriptformulario.js"></script>
+    <title>formulario</title>
+</head>
+<body>
+
+
+    <H1>FORMULARIO</H1>
+    <form>
+        <section class="formulario">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input class="info" type="text" name="nombre" placeholder="Escribe tu nombre" id="nombre" required>
+            </div>
+            <div>
+                <label for="edad">Edad</label>
+                <input class="info" type="number" name="edad" placeholder="Escribe tu edad" id="edad" min="1" max="99" required>
+            </div>
+            <div>
+                <label for="nacimiento">Fecha de nacimiento</label>
+                <input class="info" type="date" name="nacimiento" placeholder="Selecciona tu fecha de nacimiento" id="nacimiento" required>
+            </div>
+            Genero
+            <div>    
+                <label for="genero">Hombre</label>
+                <input class="info" type="radio" name="genero" id="genero" required>
+            </div>
+            <div>    
+                <label for="genero">Mujer</label>
+                <input class="info" type="radio" name="genero" id="genero" required>
+            </div>
+      
+            <button id="boton">Enviar</button>
+        </section>       
+    </form>
+    <h3 id=final></h3>
+    <a href="links.html">Volver a la central de links</a>
+</body>
+</html>

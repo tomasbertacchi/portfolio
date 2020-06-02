@@ -1,0 +1,76 @@
+
+h1 {
+    -webkit-animation-direction: normal;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-name: colours;
+	-webkit-animation-timing-function: ease;
+    text-align: center;
+    background-color: black;
+
+}
+
+@-webkit-keyframes colours {
+    0% {color: #39f;}
+   15% {color: #8bc5d1;}
+   30% {color: #f8cb4a;}
+   45% {color: #95b850;}
+   60% {color: #944893;}
+   75% {color: #c71f00;}
+   90% {color: #bdb280;}
+  100% {color: #39f;}
+}
+
+
+.container {
+    width: 1000px;
+    max-width: 80%;
+    text-align: center;
+    box-sizing: border-box;
+    outline: auto;
+    outline-color: black;
+    border-radius: 20px;
+    margin: auto;
+    margin-left: 450px;
+}
+
+#luna {
+    background-image: url("/images/luna.jpg");
+    color: white;
+    background-position-y: 0px;
+    background-position-x: 20px;
+    
+   
+}
+
+#newton {
+    background-image: url("/images/newton.jpg");
+}
+
+#futbol {
+    background-image: url("/images/futbol.jpg");
+    background-position-x: 0px;
+}
+
+#juego {
+    background-image: url("/images/juego.jpg");
+    color: white;
+    background-position: 100px;
+    
+}
+
+#arte {
+    background-image: url("/images/ultimacena.jpg");
+    color: white;
+    background-position-y: 350px;
+
+}
+
+body {
+    background-image: url("/images/fondo.jpeg");
+}
+
+#finalizar {
+    margin: auto;
+    margin-left: 920px;
+}
