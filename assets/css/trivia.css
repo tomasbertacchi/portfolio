@@ -35,7 +35,7 @@ h1 {
 }
 
 #luna {
-    background-image: url("/images/luna.jpg");
+    background-image: url("./images/luna.jpg");
     color: white;
     background-position-y: 0px;
     background-position-x: 20px;
@@ -44,30 +44,30 @@ h1 {
 }
 
 #newton {
-    background-image: url("/images/newton.jpg");
+    background-image: url("./images/newton.jpg");
 }
 
 #futbol {
-    background-image: url("/images/futbol.jpg");
+    background-image: url("./images/futbol.jpg");
     background-position-x: 0px;
 }
 
 #juego {
-    background-image: url("/images/juego.jpg");
+    background-image: url("./images/juego.jpg");
     color: white;
     background-position: 100px;
     
 }
 
 #arte {
-    background-image: url("/images/ultimacena.jpg");
+    background-image: url("./images/ultimacena.jpg");
     color: white;
     background-position-y: 350px;
 
 }
 
 body {
-    background-image: url("/images/fondo.jpeg");
+    background-image: url("./images/fondo.jpeg");
 }
 
 #finalizar {
